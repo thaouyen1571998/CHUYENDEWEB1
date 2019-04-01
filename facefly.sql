@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 19, 2019 lúc 03:28 AM
+-- Thời gian đã tạo: Th4 01, 2019 lúc 12:53 PM
 -- Phiên bản máy phục vụ: 10.1.32-MariaDB
 -- Phiên bản PHP: 5.6.36
 
@@ -39,9 +39,9 @@ CREATE TABLE `airlines` (
 --
 
 INSERT INTO `airlines` (`airline_id`, `airline_name`, `airline_nation_id`) VALUES
-(1, 'Qatar Airways', 1),
+(1, 'VietJet', 1),
 (2, 'Vietnam Airlines', 1),
-(3, 'VietJet', 3),
+(3, 'Korean Airlines', 2),
 (4, 'Japan Airlines', 3);
 
 -- --------------------------------------------------------
@@ -263,9 +263,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_email`, `user_password`, `user_first_name`, `user_last_name`, `user_phone`, `user_last_access`, `user_attempt`, `user_status`) VALUES
-(6, 'admin@gmail.com', '$2y$10$RGCMQjUGipnBtx5vVLiWDOoKQbyHuBZ72onYd1LQOGDh9ySgYP4Fa', 'Uyen', 'Do', '369963369', '2019-03-19 02:25:15', 0, 1),
+(6, 'admin@gmail.com', '$2y$10$RGCMQjUGipnBtx5vVLiWDOoKQbyHuBZ72onYd1LQOGDh9ySgYP4Fa', 'Uyen', 'Do', '369963369', '2019-03-26 02:16:12', 2, 1),
 (5, 'kimngan123@gmail.com', '$2y$10$ue6Wqs7l2xTe3uOHBhkffep7NZMLod74APjoYlrpr.QStxOBRE6Ha', 'Kim Ngan', 'Tran Thi', '0327098408', '2019-03-10 07:41:11', 0, 1),
-(7, 'uyen@gmail.com', '$2y$10$xymfvh5nDmCR1fRPhgg/veDUJetCeVGc2QvNBc.laK7FDJnth3r4i', 'Admin', 'Admin', '987564132', NULL, NULL, NULL);
+(7, 'uyen@gmail.com', '$2y$10$xymfvh5nDmCR1fRPhgg/veDUJetCeVGc2QvNBc.laK7FDJnth3r4i', 'Admin', 'Admin', '987564132', '2019-04-01 11:37:01', 0, 1);
 
 --
 -- Chỉ mục cho các bảng đã đổ
